@@ -6,7 +6,12 @@ function mostrarNaTela(dados) {
     const umidade = document.getElementById('umidade');
     const estado = document.getElementById('estado');
     const img = document.getElementById('img');
+    const min = document.getElementById('min');
+    const max = document.getElementById('max');
 
+
+    min.innerHTML = `a minima é de ${Math.floor(dados.main.temp_min)} °C`
+    max.innerHTML = `a maxima é de ${Math.floor(dados.main.temp_max)} °C`
     umidade.innerHTML = `umidade: ${dados.main.humidity
     } % `;
     img.innerHTML = `<img src="https://openweathermap.org/img/wn/${dados.weather[0].icon}.png" alt="">`
