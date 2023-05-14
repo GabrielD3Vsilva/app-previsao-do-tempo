@@ -6,8 +6,7 @@
 }
 
 body {
-    background-image: url('https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbll0eXotTlJPRktIRW1tc1JveTRyRmtPMUtqd3xBQ3Jtc0ttTWdPbnJtWGVUY0lfTW00dkc3SU9UNDRnSlNzM29tLV93SWRLckN2b0t1MW81aTZTUnNUNnI0SmpSTzJsOWhfaWp0WFFTcXhRbjFzQ1o4cVJNNkNQTENzVk41Z0s2TVg5T2hnSnRkakg1WC04UVpRTQ&q=https%3A%2F%2Fsource.unsplash.com%2F1600x900%2F%3Flandscape&v=qxzqEuAOYZ4');
-
+    background: url("../photo-1416230789844-1998de481fdc.jpg");
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -21,7 +20,7 @@ body {
     padding: 25px;
     opacity: 0.7;
     width: 95%;
-    max-width: 495px;
+    max-width: 300px;
     border-radius: 25px;
 }
 
@@ -34,7 +33,7 @@ input {
     padding: 15px;
     height: 40px;
     transform: translateY(-10px);
-    width: 400px;
+    width: 100px;
     color: black;
 }
 
